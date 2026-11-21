@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+data/*.db
+data/*.db-*
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Local AI models and media
+*.safetensors
+*.gguf
+*.mp4
+*.mov
+*.mxf
+*.wav
+*.mp3
+
+# Editor settings
+.vscode/
+.idea/
